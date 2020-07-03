@@ -8,7 +8,7 @@ public class MethodsWithReturnValue {
 		//long if length >10, short<10.
 	
 	
-	String str="I lou";
+	String str="I love you";
 	
 	int length = str.length();
 	
@@ -17,6 +17,7 @@ public class MethodsWithReturnValue {
 	} else {
 		System.out.println("created String is short");
 	}
+	
 	
 	
 	}
