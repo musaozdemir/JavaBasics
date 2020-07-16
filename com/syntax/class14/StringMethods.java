@@ -67,7 +67,7 @@ public class StringMethods {
 		
 		String str = "Hello";
 		boolean isEmpty = str.isEmpty();
-		
+		System.out.println("is empty method");
 		System.out.println(isEmpty);
 	
 		String str1 = "";
@@ -166,7 +166,7 @@ public class StringMethods {
 		System.out.println("------- .substring() methods ----------");
 		
 		String message="youarethebesttttt";
-		String messageNew=message.substring(1);
+		String messageNew=message.substring(4);
 		
 		System.out.println("message="+message);
 		System.out.println("messageNew="+messageNew);

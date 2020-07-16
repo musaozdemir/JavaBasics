@@ -9,7 +9,7 @@ public class MethodsWithReturn {
 		
 		Boolean isItEven = obj.isEven(22);
 		System.out.println(isItEven);
-		
+		obj
 		
 		String upperValue=obj.converToUppercase("Today is very good day");
 		
