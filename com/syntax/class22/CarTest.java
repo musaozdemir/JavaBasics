@@ -10,7 +10,7 @@ public class CarTest {
 		tesla.info();
 		
 		
-		
+		System.out.println();
 		
 	}	
 

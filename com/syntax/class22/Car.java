@@ -17,6 +17,7 @@ class Tesla extends Car{
 	
 	
 	public Tesla(){
+		super();
 		System.out.println("I am non argument conscructor of child class");
 	}
 	
