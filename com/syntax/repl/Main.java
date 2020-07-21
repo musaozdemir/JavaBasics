@@ -1,5 +1,7 @@
 package com.syntax.repl;
-	
+
+import com.syntax.class25.Store;
+
 public class Main {
 	   
 	   
@@ -24,8 +26,8 @@ public class Main {
    
    obj.info();
    
+  
    
-    
 
 
 

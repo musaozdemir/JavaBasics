@@ -2,7 +2,7 @@ package com.syntax.class22;
 
 public class Car {
 	
-	String make;
+//	String make;
 	
 	public Car() {
 		System.out.println("I am non argument conscructor of parents class");
@@ -13,7 +13,7 @@ public class Car {
 
 class Tesla extends Car{
 	
-	boolean autopilot;
+//	boolean autopilot;
 	
 	
 	public Tesla(){
@@ -22,6 +22,8 @@ class Tesla extends Car{
 	}
 	
 	void info() {
-		System.out.println("we bouilt "+make+" that has autopilot feaure ="+autopilot);
+//		System.out.println("we bouilt "+make+" that has autopilot feaure ="+autopilot);
+		
+		System.out.println("we bouilt make that has autopilot feaure autopilot");
 	}
 }

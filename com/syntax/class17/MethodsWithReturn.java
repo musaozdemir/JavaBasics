@@ -9,11 +9,14 @@ public class MethodsWithReturn {
 		
 		Boolean isItEven = obj.isEven(22);
 		System.out.println(isItEven);
-		obj
+		
 		
 		String upperValue=obj.converToUppercase("Today is very good day");
 		
 		System.out.println(upperValue);
+		
+		
+		System.out.println(obj.getLargest(233, 33));
 		
 	}
 	// create a method will accept an int value and return weather number is even 
