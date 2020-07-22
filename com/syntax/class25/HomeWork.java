@@ -27,7 +27,8 @@ public class HomeWork {
 		
 		int newsum2 = sum1.sum(10, 20, 30);
 		System.out.println(newsum2);
-		
+	
+				
 	}
 	
 	
