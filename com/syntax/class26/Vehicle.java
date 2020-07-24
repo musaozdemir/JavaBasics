@@ -2,7 +2,6 @@ package com.syntax.class26;
 
 public abstract class Vehicle {
 
-
 	public String vin;
 	public static int totalVehicles;
 	
@@ -18,7 +17,6 @@ public abstract class Vehicle {
 	public void drive() {
 		System.out.println("All vehicle drives");
 	}
-	
 	public void stop() {
 		System.out.println("All vehicles stop by pressing break");
 	}
@@ -26,10 +24,15 @@ public abstract class Vehicle {
 	public abstract void start();
 	
 	public abstract void openTrunk();
-}
-
-abstract class Car extends Vehicle  {
 	
+	//can we make abstract method as static? NO
+	
+	//can we make abstract class as final?NO
+	
+	// can we make abstract class as private? NO
+	
+}
+abstract class Car extends Vehicle  {
 	public Car(String vin) {
 		super(vin);
 	}
@@ -38,9 +41,7 @@ abstract class Car extends Vehicle  {
 		System.out.println("All cars can open trunk automatically");
 	}
 }
-
 class Lamborgini extends Car {
-	
 	public Lamborgini(String vin) {
 		super(vin);
 	}
@@ -48,5 +49,4 @@ class Lamborgini extends Car {
 	public void start() {
 		System.out.println("Lamborgini starts magically");
 	}
-	
 }
