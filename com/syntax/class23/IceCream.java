@@ -10,6 +10,7 @@ public class IceCream {
 		this.brand = brand;
 		this.color = color;
 
+		
 	}
 }
 

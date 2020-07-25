@@ -11,13 +11,15 @@ public static void main(String[] args) {
 		Motorcycle m=new Bike();
 		m.driving();
 		m.breaking();
+		System.out.println(Motorcycle.DRIVE);
 		
 		System.out.println(" ------ Object of Drivable type ----- ");
 		
 		Drivable d=new Bike();
 		d.driving();
 		d.breaking();
-
+		System.out.println(Drivable.DRIVE);
+	
 	}
 
 }
