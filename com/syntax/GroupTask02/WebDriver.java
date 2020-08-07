@@ -6,7 +6,7 @@ public interface WebDriver {
 
 	void close();
 
-	String getTitle = "Boss";
+	public String getTitle(); 
 
 }
 
@@ -16,12 +16,12 @@ interface TakesScreenShot {
 
 }
 
-interface PublicWebDriver extends WebDriver, TakesScreenShot {
+interface RemoteWebDriver extends WebDriver, TakesScreenShot {
 
 	void navigate();
 }
 
-class ChromeDriver implements PublicWebDriver {
+class ChromeDriver implements RemoteWebDriver {
 
 	public void navigate() {
 		System.out.println("ChromeDriver naviagtor");
@@ -42,10 +42,15 @@ class ChromeDriver implements PublicWebDriver {
 		System.out.println("ChromeDriver getScreenshot");
 
 	}
+	
+	public String getTitle() {
+		
+		return null;
+	}
 
 }
 
-class FirefoxDriver implements PublicWebDriver {
+class FirefoxDriver implements RemoteWebDriver {
 
 	public void navigate() {
 		System.out.println("FirefoxDriver naviagtor");
@@ -65,10 +70,14 @@ class FirefoxDriver implements PublicWebDriver {
 
 		System.out.println("FireFoxDriver getScreenshot");
 	}
-
+    
+	public String getTitle() {
+		
+		return null;
+	}
 }
 
-class SafariDriver implements PublicWebDriver {
+class SafariDriver implements RemoteWebDriver {
 
 	public void navigate() {
 		System.out.println("SafariDriver naviagtor");
@@ -87,5 +96,10 @@ class SafariDriver implements PublicWebDriver {
 	public void getScreenShot() {
 
 		System.out.println("SafariDriver getScreenshot");
+	}
+	
+	public String getTitle() {
+		
+		return null;
 	}
 }
