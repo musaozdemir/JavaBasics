@@ -1,9 +1,11 @@
 package com.syntax.class27;
 
+
 public class TrustableTest {
+	
 	public static void main(String[] args) {
 	
-		Trusable tr = new Trusable() ;
+	Trustable tr = new BOA();
 	tr.trust();
 	
 	Bank b = new BOA();
@@ -15,6 +17,6 @@ public class TrustableTest {
 		
 		
 		
-	};
+	}
 }
 

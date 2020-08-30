@@ -19,7 +19,7 @@ public class ArrayListIntro {
 		System.out.println("Size of original arrayList "+arrayListSize);
 		
 		//how to access elements from ArrayList
-		String elementIndex2=arrayList.get(2);
+		String elementIndex2=arrayList.get(0);
 		System.out.println(elementIndex2);
 		
 		//I would like to add more Objects into ArrayList
