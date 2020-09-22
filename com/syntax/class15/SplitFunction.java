@@ -1,6 +1,5 @@
 package com.syntax.class15;
 
-import java.lang.reflect.Array;
 
 public class SplitFunction {
 	
@@ -12,7 +11,7 @@ public class SplitFunction {
 		int howMonyElement=array.length;
 		System.out.println(howMonyElement);
 		for(String s:array) {
-			System.out.print(s+"");
+			System.out.print(s+"-");
 			
 		}
 	}

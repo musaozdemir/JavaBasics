@@ -41,7 +41,7 @@ public class Task01 {
 				if (r == 1 || r == 5 || c==1 || c==4) {
 					System.out.print("$");
 				} else {
-					
+					System.out.print(" ");
 				}
 			
 }

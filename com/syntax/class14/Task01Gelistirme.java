@@ -5,21 +5,24 @@ import java.util.Scanner;
 public class Task01Gelistirme {
 public static void main(String[] args) {
 	
-
+	String username=null;
+	String password=null;
 	Scanner scan = new Scanner(System.in);
 
 	do {
 	
-	System.out.println("Please enter user name");
-	String username = scan.nextLine();
+	System.out.println("Please enter user name"); 
+	username = scan.nextLine();
 	System.out.println("Please enter your password");
-	String password = scan.nextLine();
+	password = scan.nextLine();
 	
-	
-	}while ( || !password.isEmpty()) {
+	break;
+
+	}
+	while (password.isEmpty() && username.isEmpty()); {
 	
 		System.out.println("Username and Password cannot be empty");
-	}  
+	  
 	
 	if (!(password.length() < 8)) {
 			
@@ -42,7 +45,8 @@ public static void main(String[] args) {
 			System.out.println("Password is too short and should be min 8 charthers");
 
 		}
-
+	}
 	
+}
 }
 

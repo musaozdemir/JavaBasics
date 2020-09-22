@@ -3,6 +3,9 @@ package com.syntax.class12;
 public class AllayRecap {
 public static void main(String[] args) {
 	
+	
+	
+	
 	String[] colors = new String [3];
 	
 	colors[0] = "blue";
