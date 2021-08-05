@@ -1,6 +1,5 @@
 package com.syntax.class29;
 
-import com.syntax.GroupTask02.WebDriver;
 
 public class Recap {
 
@@ -27,7 +26,6 @@ public static void main(String[] args) {
 			// Array does not have ready methods to manipulate with data
 		
 		String[] words= {"Hello", "Welcome", "Thank you"};
-		WebDriver[] drivers2={ new ChromeDriver(), new FireFoxDriver(), new SafariDriver() };
 		
 	}
 }
